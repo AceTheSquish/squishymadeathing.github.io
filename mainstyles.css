@@ -1,0 +1,899 @@
+/* SMAT HOME PAGE STYLES */
+
+html {
+    background-color: gray;
+    background-image: url("/c:/Users/aceth/Desktop/Important W.I.P/SMAT Website/graphics/branding & logos/background1,000x4,000px.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+}
+
+/* How do ya do? This is a note within the CSS code of the website. -Squishy */
+
+body {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+.maindivs {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+    .sectionlinebreaks {
+        border: 0px;
+        padding: 0px;
+        margin: 50px;
+    }
+
+    button {
+        color: white;
+        outline-color: gray;
+        background-color: gray;
+    }
+
+    p {
+        color: white;
+        font-weight: bolder;
+    }
+
+    .roundimages {
+        border-radius: 50%;
+    }
+
+    h2 {
+        color: white;
+    }
+
+/* MENU TABS */
+
+#menutabs {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    width: 101vw;
+}
+
+    .buttonrows {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #topbuttonrow {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            z-index: 3;
+            position: relative;
+        }
+
+        .topmenubuttons {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            border-radius: 100%;
+            margin-top: -55px;
+            margin-left: -1px;
+            margin-right: -1px;
+            width: 300px;
+            text-align: center;
+            padding-bottom: 7px;
+            background-color: rgb(77, 77, 77);
+            text-decoration-line: none;
+            color: white;
+            font-size: x-large;
+            border-bottom-style: solid;
+            border-bottom-width: 20px;
+            border-bottom-color: rgb(77, 77, 77);
+        }
+
+        #toprowshaper {
+            background-color: rgb(77, 77, 77);
+            z-index: 3;
+            position: relative;
+            height: 30px;
+        }
+
+    #betweenlayersshaper {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        z-index: 2;
+        position: relative;
+        height: 80px;
+        margin-top: -70px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+        #shaperleft {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            height: 80px;
+            width: 100px;
+            float: left;
+        }
+
+        #shapermiddle {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            background-color: rgb(51, 51, 51);
+            height: 80px;
+            width: 1350px;
+        }
+
+        #shaperright {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            height: 80px;
+            width: 100px;
+            float: right;
+        }
+
+    #bottombuttonrow {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        margin-left: -4px;
+        margin-right: -4px;
+        margin-top: -65px;
+        z-index: 1;
+        position: relative;
+    }
+
+        .bottommenubuttons {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            border-radius: 100%;
+            margin-top: -24px;
+            margin-left: -1px;
+            margin-right: -1px;
+            width: 300px;
+            text-align: center;
+            padding-bottom: 7px;
+            background-color: rgb(51, 51, 51);
+            text-decoration-line: none;
+            color: white;
+            font-size: x-large;
+            border-bottom-style: solid;
+            border-bottom-width: 20px;
+            border-bottom-color: rgb(51, 51, 51);
+        }
+
+        #bottomrowshaper {
+            height: 80px;
+            margin-top: -50px;
+            margin-left: 125px;
+            margin-right: 125px;
+
+
+        }
+
+        .bottomrowspacers {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            border-radius: 100%;
+            margin-top: -20px;
+            width: 130px;
+            text-align: center;
+            background-color: transparent;
+        }
+
+/* WORK IN PROGRESS NOTICE */
+
+        #wipnotice {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            text-align: center;
+            margin-bottom: 50px;
+            background-color: yellow;
+        }
+
+/* top section */
+
+#audioandmousebuttons {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+    #audiobutton {
+        float: left;
+        width: 75px;
+        height: 75px;
+        text-align: center;
+        background-image: url('/c:/Users/aceth/Desktop/Important W.I.P/SMAT Website/graphics/artwork/audio.png');
+        background-color: transparent;
+        border: 0px;
+        background-size: contain;
+    }
+
+    #audiobutton:hover {
+        cursor: pointer;
+    }
+
+    #mousebutton {
+        float: right;
+        width: 75px;
+        height: 75px;
+        text-align: center;
+        background-image: url('/c:/Users/aceth/Desktop/Important W.I.P/SMAT Website/graphics/artwork/mousepointer.png');
+        background-color: transparent;
+        border: 0px;
+        background-size: contain;
+    }
+
+    #mousebutton:hover {
+        cursor: pointer;
+    }
+
+#logosandaccess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    .logoandaccesselements {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    #smatlogo {
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+    }
+
+    #settingsbutton {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        text-align: center;
+        background-image: url('/c:/Users/aceth/Desktop/Important W.I.P/SMAT Website/graphics/artwork/settings.png');
+        background-color: transparent;
+        border: 0px;
+    }
+
+    #settingsbutton:hover {
+        cursor: pointer;
+    }
+
+#introduction {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+
+/* buttons and images 1 */
+
+    #currentandimages {
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        height: 200px;
+    }
+
+        #currentbuttonarea {
+            border: 0px;
+            padding: 0px;
+            margin: 0px;
+            float: inline-start;
+        }
+
+            #currentprojectsbutton {
+                background-color: gray;
+                border: 0px;
+                padding: 0px;
+                margin: 0px;
+                padding-left: 200px;
+            }
+
+        #topimageline {
+            border: 0px;
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        .imageline1 {
+            padding: auto;
+            border: 0px;
+            margin: 0px;
+        }
+
+/* buttons and images 2 */
+
+    #allandimages {
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        height: 200px;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+        #allbuttonarea {
+            border: 0px;
+            padding: 0px;
+            margin: 0px;
+            float: inline-end;
+        }
+
+                #allprojectsbutton {
+                    background-color: gray;
+                    border: 0px;
+                    padding: 0px;
+                    margin: 0px;
+                    padding-right: 200px;
+                } 
+
+        #bottomimageline {
+            border: 0px;
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        .imageline2 {
+            padding: auto;
+            border: 0px;
+            margin: 0px;
+        }
+
+/* thought bubbles */
+
+#recentthoughtbubbles {
+    margin-top: 50px;
+}
+
+    #recentthoughtbubtitle {
+        margin-bottom: -6%;
+    }
+
+    #thoughtbubblegroup {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+    }
+
+        #bubblerow1 {
+            display: flex;
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: -12%;
+        }
+
+            #bubblepost1 {
+                background-image: url('/c:/Users/aceth/Desktop/Important W.I.P/SMAT Website/graphics/artwork/thoughtbubble400x250px2.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 400px;
+                height: 250px;
+                text-align: center;
+                overflow: auto;
+                margin-left: -2%;
+                color: black;
+            }
+
+            #bubblepost2 {
+                background-image: url('/c:/Users/aceth/Desktop/Important W.I.P/SMAT Website/graphics/artwork/thoughtbubble400x250px.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 400px;
+                height: 250px;
+                text-align: center;
+                overflow: auto;
+                justify-self: right;
+                margin-bottom: -5%;
+                margin-right: -5%;
+                color: black;
+            }
+
+        #bubblerow2 {
+            display: flex;
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            justify-content: center;
+            width: 100%;
+        }
+
+            #bubblepost3 {
+                background-image: url('/c:/Users/aceth/Desktop/Important W.I.P/SMAT Website/graphics/artwork/thoughtbubble300x150px.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 300px;
+                height: 150px;
+                text-align: center;
+                overflow: auto;
+                color: black;
+            }
+
+            #bubblepost4 {
+                background-image: url('/c:/Users/aceth/Desktop/Important W.I.P/SMAT Website/graphics/artwork/thoughtbubble150x100px.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 150px;
+                height: 100px;
+                text-align: center;
+                overflow: auto;
+                margin-top: 11%;
+                color: black;
+            }
+
+        #bubblerow3 {
+            display: flex;
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+            #bubblepost5 {
+                background-image: url('/c:/Users/aceth/Desktop/Important W.I.P/SMAT Website/graphics/artwork/thoughtbubble400x250px.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 400px;
+                height: 250px;
+                text-align: center;
+                overflow: auto;
+                margin-left: -10%;
+                margin-top: -3%;
+                color: black;
+            }
+            
+            #bubblepost6 {
+                background-image: url('/c:/Users/aceth/Desktop/Important W.I.P/SMAT Website/graphics/artwork/thoughtbubble300x150px.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 300px;
+                height: 150px;
+                text-align: center;
+                overflow: auto;
+                margin-top: 6%;
+                color: black;
+            }
+
+            #bubblepost7 {
+                background-image: url('/c:/Users/aceth/Desktop/Important W.I.P/SMAT Website/graphics/artwork/thoughtbubble400x250px2.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 400px;
+                height: 250px;
+                text-align: center;
+                overflow: auto;
+                margin-right: -8%;
+                margin-top: -2%;
+                color: black;
+            }
+
+                    .thoughtbubbles {
+                    margin: 0px;
+                    border: 0px;
+                    padding: 0px;
+                }
+
+    #thoughtbubblebuttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+        #allthoughtbubblebutton {
+            float: left;
+            width: 200px;
+            height: 60px;
+            text-align: center;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        #thoughtbubcontactbutton {
+            float: right;
+            width: 200px;
+            height: 60px;
+            text-align: center;
+            padding: 10px;
+            margin: 20px;
+        }
+
+/* jamplayer and sketchbook */
+
+#jamplayerandsketchbook {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+    #mainpagejamplayer {
+        display: grid;
+        grid-column: auto;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+    }
+
+        .mainjamplayeritems {
+            padding: 0px;
+            border: 0px;
+            margin: 20px;
+            text-align: center;
+        }
+
+    #mainpagesketchbook {
+        display: grid;
+        grid-column: auto;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+    }
+
+        .mainsketchbookitems {
+            padding: 0px;
+            border: 0px;
+            margin: 20px;
+            text-align: center;
+        }
+
+/* games */
+
+#games {
+    /*placeholder*/
+}
+
+    #mainpagegameslogo {
+        padding: 0px;
+        border: 0px;
+        margin: 2%;
+    }
+
+    #mainpagegamessection {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+        .mainpagegames {
+            padding: 13px;
+            border: 4px;
+            border-style: solid;
+            border-radius: 6%;
+            border-color: black;
+            margin: 0px;
+            background-color: gray;
+        }
+
+    #gamesseeallbutton {
+        width: 200px;
+        height: 60px;
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+    }
+
+/* photo and pins area */
+
+    #photosandpins {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+
+/* photo string */
+
+    #photostringarea {
+        padding: 6px;
+        border: 0px;
+        margin: 10px;
+        background-image: url("/c:/Users/aceth/Desktop/Important W.I.P/SMAT Website/graphics/artwork/photostring700x400.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 700px;
+        height: 400px;
+        text-align: center;
+        overflow: auto;
+    }
+
+    #photosivetakenlogo {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        float: left;
+        margin-left: 8%;
+        transform: rotate(-10deg);
+    }
+
+    #photostringimagesgroup {
+        display: flex;
+        margin-top: 200px;
+    }
+
+    .photostringimages {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        background-color: white;
+        width: 90px;
+        height: 130px;
+        border-radius: 4%;
+    }
+
+    .stringlabels {
+        color: black;
+    }
+
+        #stringimage1 {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            padding-top: 10px;
+            margin-left: 84px;
+            transform: rotate(-4deg);
+        }
+        
+        #stringimage2 {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            padding-top: 10px;
+            margin-left: 10px;
+            margin-top: -20px;
+            transform: rotate(-6deg);
+        }
+
+        #stringimage3 {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            padding-top: 10px;
+            margin-left: 10px;
+            margin-top: -45px;
+            transform: rotate(-9deg);
+        }
+
+        #stringimage4 {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            padding-top: 10px;
+            margin-left: 10px;
+            margin-top: -80px;
+            transform: rotate(-12deg);
+        }
+
+        #mainimageseeall {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            margin-left: -10px;
+            margin-top: -115px;
+            transform: rotate(-25deg);
+            width: 65px;
+            height: 20px;
+            text-align: center;
+            border-style: solid;
+            border-color: black;
+            border-width: 3px;
+            background-color: white;
+            color: black;
+            text-decoration-line: none;
+            font-weight: bold;
+        }
+
+/* cute lil pins */
+
+    #cutelilpinsarea {
+        padding: 2%;
+        border: 0px;
+        margin: 0px;
+    }
+
+        #cutelilpinslogo {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            float: right;
+            margin-right: 4%;
+        }
+
+/* savables */
+
+#savables {
+    padding: 2%;
+}
+
+    #mainsavableslogo {
+        padding: 0px;
+        border: 0px;
+        margin: 2%;
+        padding-bottom: 5%;
+    }
+
+    #mainsaverow {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 15px;
+        flex-wrap: wrap;
+    }
+
+        .mainsavables {
+            padding: 1%;
+            border: 0px;
+            margin: 0px;
+            width: min-content;
+        }
+
+            #mainsav1 {
+                margin: 0px;
+                margin-top: -9%;
+            }
+
+            #mainsav2 {
+                margin: 0px;
+                margin-bottom: -2%;
+            }
+
+            #mainsav3 {
+                margin: 0px;
+                margin-top: -4%;
+            }
+
+            #mainsav4 {
+                margin: 0px;
+                margin-bottom: -2%;
+            }
+
+            #mainsav5 {
+                margin: 0px;
+                margin-top: -9%;
+            }
+
+    #gotosavbutton {
+        width: 200px;
+        height: 60px;
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+    }
+
+/* FOOTER */
+
+#footer {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    border-top: 5px;
+    border-top-style: dotted;
+    border-top-color: white;
+}
+
+    .footertext {
+        color: gray;
+    }
+
+    .footertitles {
+        text-decoration-line: underline;
+    }
+
+    #backtotop {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    #footertop {
+        padding: 2%;
+        border: 0px;
+        margin: 0px;
+        text-align: center;
+        margin-bottom: 2%;
+        border: 5px;
+        border-style: solid;
+        border-color: gray;
+    }
+
+        #backtotopbutton {
+            text-decoration-line: none;
+            color: black;
+            outline-color: gray;
+            background-color: gray;
+            padding: 5px;
+        }
+
+    #footermiddle {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        margin-bottom: 2%;
+        display: flex;
+        
+    }
+
+        #footermidleft {
+            padding: 2%;
+            border: 0px;
+            margin: 0px;
+            float: left;
+            text-align: center;
+            border: 5px;
+            border-style: solid;
+            border-color: gray;
+            border-right: 2px;
+            border-right-style: solid;
+            border-right-color: gray;
+        }
+
+        #footermidright {
+            padding: 2%;
+            border: 0px;
+            margin: 0px;
+            float: right;
+            text-align: center;
+            border: 5px;
+            border-style: solid;
+            border-color: gray;
+            border-left: 2px;
+            border-left-style: solid;
+            border-left-color: gray;
+        }
+        
+    #footerbottom {
+        padding: 2%;
+        border: 0px;
+        margin: 0px;
+        text-align: center;
+        border: 5px;
+        border-style: solid;
+        border-color: gray;
+    }
